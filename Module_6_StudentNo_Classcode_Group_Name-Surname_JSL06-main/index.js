@@ -54,8 +54,7 @@ function addToOrder(itemName) {
 
     // Append the list item to the order items list
     orderList.appendChild(listItem);
-
-    // Calculate and update the total price (for demonstration, assuming all items have a price of 10)
+ 
     let totalPrice = parseFloat(orderTotal.textContent) || 0;
     totalPrice += 60; 
     orderTotal.textContent = totalPrice.toFixed(2); // Displaying total up to 2 decimal places
