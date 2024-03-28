@@ -27,7 +27,7 @@ function displayMenuItems(menu) {
             // Loop through the items in the category and create list items
             menu[category].forEach(function(item) {
                 // Create a list item element
-                var listItem = document.createElement("li");
+                let listItem = document.createElement("li");
                 listItem.textContent = item;
 
                 // Attach a click event listener to the list item to add it to the order
